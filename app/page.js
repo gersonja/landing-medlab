@@ -94,7 +94,7 @@ export default function Home () {
             <p><u>PRUEBA DE ANTICUERPOS IgG-IGM
             </u></p>
             <br />
-            <p>En Laboratorio Clínico Shadday contamos con todos los exámenes que han sido aprobados para garantizar los resultados y seguridad de nuestros pacientes.</p>
+            <p>En MED+lab contamos con todos los exámenes que han sido aprobados para garantizar los resultados y seguridad de nuestros pacientes.</p>
             <br />
             <p>Para más información sobre COVID- 19, y todos los procedimientos haga click en el link de abajo.
             </p>
@@ -137,14 +137,14 @@ export default function Home () {
               <br />
               <Image src="/domicilio.jpg" width={450} height={300} alt="domicilio" />
               <br />
-              <p>Nuestro personal acudirá a su su domicilio, con todas las normas de bioseguridad, para realizar las tomas de muestras. Nos acomodamos a su horario.</p>
+              <p>Nuestro personal acudirá a su domicilio, con todas las normas de bioseguridad, para realizar las tomas de muestras. Nos acomodamos a su horario.</p>
             </div>
             <div className="p-10 w-full md:w-1/2 flex flex-col items-center justify-center">
               <h1 className="text-2xl font-bold">Convenios</h1>
               <br />
               <Image src="/convenios.jpg" width={450} height={300} alt="convenio" />
               <br />
-              <p>Laboratorio Clínico Shadday tiene convenios con centros médicos privados y públicos en medicina interna, ginecología, traumatología y endocrinología, entre otras.</p>
+              <p>MED+lab tiene convenios con centros médicos privados y públicos en medicina interna, ginecología, traumatología y endocrinología, entre otras.</p>
             </div>
             <div className="p-10 w-full md:w-1/2 flex flex-col items-center justify-center">
               <h1 className="text-2xl font-bold">Salud Ocupacional</h1>
@@ -223,7 +223,7 @@ export default function Home () {
                 <h1 className="text-3xl text-blue-800 font-bold">02345775 - 0992903801</h1>
               </div>
               <div className="map-responsive px-10">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15959.076753003785!2d-78.48655964999999!3d-0.28434405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1688054959753!5m2!1ses-419!2sec" width="400" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.766894539262!2d-78.47885798524666!3d-0.2909055997877523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMTcnMjcuMyJTIDc4wrAyOCczNi4wIlc!5e0!3m2!1ses-419!2sec!4v1688059069056!5m2!1ses-419!2sec" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
