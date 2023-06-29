@@ -22,7 +22,7 @@ export default function Home () {
           <div className="contentimage">
             <Image
               className="fondox"
-              src="/Encabezado-Laboratorio-Clinico.jpg"
+              src="/portada.jpg"
               alt="principal"
               width={1024}
               height={683}
@@ -37,11 +37,11 @@ export default function Home () {
                   width={400}
                   height={200}
                 />
-                <h1 className="font-['Myriad Pro'] text-2xl text-[#4C4645]">diagnostico clínico</h1>
+                <h1 className="font-['Myriad Pro'] text-2xl text-white">diagnostico clínico</h1>
               </div>
             </div>
             <div className="w-full flex justify-center pt-5 items-center">
-              <button className="bg-[#4C4645] hover:bg-[#51B4A0] hover:text-[#4C4645] text-[#51B4A0] transition-colors duration-500 px-5 py-3 font-medium lg:text-xl rounded-full">Resultados en línea</button>
+              <button className="bg-white hover:bg-[#51B4A0] hover:text-[#4C4645] text-[#51B4A0] transition-colors duration-500 px-5 py-3 font-medium lg:text-xl rounded-full">Resultados en línea</button>
             </div>
           </div>
         </div>

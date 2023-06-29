@@ -8,7 +8,7 @@
 }
 
 .fondox {
-  @apply object-center object-cover h-full w-full opacity-50
+  @apply object-center object-cover h-full w-full opacity-80
 }
 
 .contentimage {
