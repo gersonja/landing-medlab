@@ -2,8 +2,6 @@ import Image from 'next/image'
 import ClockIcon from "@heroicons/react/20/solid/ClockIcon";
 import MapPinIcon from "@heroicons/react/20/solid/MapPinIcon";
 import TruckIcon from "@heroicons/react/20/solid/TruckIcon";
-import EnvelopeIcon from "@heroicons/react/20/solid/EnvelopeIcon";
-import PhoneIcon from "@heroicons/react/20/solid/PhoneIcon";
 import Link from 'next/link';
 
 export default function Home () {
