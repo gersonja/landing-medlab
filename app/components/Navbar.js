@@ -19,7 +19,7 @@ export default function Navbar () {
           <a className="hover:text-[#51B4A0] hover:bg-white px-10 py-2 rounded-xl transition-all duration-500" href="#contacto">Contacto</a>
         </nav>
         <div className="flex md:hidden justify-end">
-          <button className="m-3 transition-all duration-300" onClick={() => setIsOpen(!isOpen)}>
+          <button className="m-3" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
             ) : (
