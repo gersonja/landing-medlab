@@ -1,6 +1,5 @@
 'use client'
 
-import Image from "next/image";
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
@@ -11,7 +10,7 @@ export default function Navbar () {
   return (
     <>
       <div className="flex z-40 items-center fixed top-0 w-full px-3 md:px-10 justify-between overflow-hidden bg-[#51B4A0]">
-        <Image className="p-2 md:p-5 justify- shadow-white" src="/logo-w.svg" width={200} height={75} alt="logo" />
+        <img className="p-2 md:p-5 justify- shadow-white" src="/logo-w.svg" width={200} height={75} alt="logo" />
         <nav className="hidden md:flex font-bold text-[#4C4645]">
           <a className="hover:text-[#51B4A0] hover:bg-white px-10 py-2 rounded-xl transition-all duration-500" href="#inicio" onClick={() => setIsOpen(false)}>Inicio</a>
           <a className="hover:text-[#51B4A0] hover:bg-white px-10 py-2 rounded-xl transition-all duration-500" href="#nosotros">Nosotros</a>
