@@ -4,7 +4,7 @@ import MapPinIcon from "@heroicons/react/20/solid/MapPinIcon";
 import TruckIcon from "@heroicons/react/20/solid/TruckIcon";
 import Link from 'next/link';
 
-export default function Home () {
+export default function Home() {
   return (
     <>
       <div className="fixed bottom-3 right-3 md:bottom-10 md:right-10 z-40 hover:animate-pulse cursor-pointer">
@@ -106,13 +106,26 @@ export default function Home () {
       </section >
       <section id="nosotros" className="text-blue-800 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-100 to-white pt-10">
         <div className="flex flex-wrap justify-center space-x-10 pt-20">
+          <div className="flex flex-col items-center justify-center md:w-1/3">
+            <h1 className="text-2xl font-bold">Misión</h1>
+            <br />
+            <p className="px-5">Proporcionar resultados de exámenes de laboratorio de muestras biológicas extraídas de las personas beneficiarias a través del procesamiento con tecnología de vanguardia para colaborar en la toma de decisiones de los Médicos tratantes, además de contribuir en la mejora continua y al desarrollo científico en medicina de laboratorio en beneficio de la población urbana.</p>
+          </div>
+          <div className="flex flex-col items-center justify-center md:w-1/3">
+            <h1 className="text-2xl font-bold">Visión</h1>
+            <br />
+            <p className="px-5">Ser un servicio de medicina de laboratorio de baja complejidad de excelencia, caracterizado por la atención especializada y de vanguardia en un marco de profesionalismo, calidad, humanismo, honestidad, responsabilidad y compromiso al servicio de la población del Ecuador.</p>
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-center space-x-10 pt-20">
           <Image
             className="rounded-md"
             src="/AdobeStock_110111178-scaled.jpeg"
             width={615}
             height={542} alt="pipeta"
           />
-          <div className="flex flex-col items-center justify-center md:w-1/2">
+          <br />
+          <div className="flex flex-col items-center justify-center md:w-1/2 mt-10">
             <h1 className="text-2xl font-bold">¿Quiénes Somos?</h1>
             <br />
             <p className="px-5">Somos un laboratorio clínico que ofrece servicios de análisis clínicos, con el fin de satisfacer las necesidades de nuestros clientes, brindando un servicio de calidad, confiable y oportuno, con personal altamente calificado y tecnología de punta.</p>
@@ -215,13 +228,13 @@ export default function Home () {
           <div className="flex items-end justify-center pt-10 h-[90%]">
             <div className="flex items-center">
               <div className="flex justify-center items-center px-10">
-                <h1 className="text-3xl text-blue-800 font-bold">lc.med.lab@gmail.com</h1>
+                <h1 className="text-xl text-blue-800 font-bold">lc.med.lab@gmail.com</h1>
               </div>
               <div className="flex justify-center items-center px-10">
-                <h1 className="text-3xl text-blue-800 font-bold">02345775 - 0992903801</h1>
+                <h1 className="text-xl text-blue-800 font-bold">02345775 - 0992903801</h1>
               </div>
               <div className="map-responsive px-10">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.766894539262!2d-78.47885798524666!3d-0.2909055997877523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMTcnMjcuMyJTIDc4wrAyOCczNi4wIlc!5e0!3m2!1ses-419!2sec!4v1688059069056!5m2!1ses-419!2sec" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.766894539262!2d-78.47885798524666!3d-0.2909055997877523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMTcnMjcuMyJTIDc4wrAyOCczNi4wIlc!5e0!3m2!1ses-419!2sec!4v1688059069056!5m2!1ses-419!2sec" width="300" height="200" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
