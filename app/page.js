@@ -18,12 +18,12 @@ export default function Home() {
       <section id="inicio">
         <div className="h-screen">
           <div className="contentimage">
-            <Image
-              className="fondox"
-              src="/portada.jpg"
-              alt="principal"
-              width={1024}
-              height={683}
+            <video
+              className="object-center object-cover h-full w-full mt-10 opacity-85"
+              src="/video.mp4"
+              autoPlay
+              muted
+              loop
             />
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center w-full h-full">
